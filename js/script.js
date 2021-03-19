@@ -29,14 +29,14 @@ var prezzoscontato20 = prezzoBigliettoSenzaSconto - percent20;
 var prezzoscontato40 = prezzoBigliettoSenzaSconto - percent40;
 //console.log(prezzoscontato40);
 
-//logica
+//logica + stamp
 
 if ( etaUtente <= 17 ) {
-    alert('il prezzo del tuo biglietto è: ' + prezzoscontato20);
+    alert('il prezzo del tuo biglietto è: ' + prezzoscontato20.toFixed(2));
 } else if (etaUtente >= 69 ) {
-    alert( 'il prezzo del tuo biglietto è: ' + prezzoscontato40);
+    alert( 'il prezzo del tuo biglietto è: ' + prezzoscontato40.toFixed(2));
 } else {
-    alert( 'il prezzo del tuo biglietto è: ' + prezzoBigliettoSenzaSconto);
+    alert( 'il prezzo del tuo biglietto è: ' + prezzoBigliettoSenzaSconto.toFixed(2));
 }
 
 
