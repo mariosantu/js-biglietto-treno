@@ -32,11 +32,11 @@ var prezzoscontato40 = prezzoBigliettoSenzaSconto - percent40;
 //logica + stamp
 
 if ( etaUtente <= 17 ) {
-    alert('il prezzo del tuo biglietto è: ' + prezzoscontato20.toFixed(2));
+    alert('il prezzo del tuo biglietto è: ' + prezzoscontato20.toFixed(2) + '€');
 } else if (etaUtente >= 69 ) {
-    alert( 'il prezzo del tuo biglietto è: ' + prezzoscontato40.toFixed(2));
+    alert( 'il prezzo del tuo biglietto è: ' + prezzoscontato40.toFixed(2) + '€');
 } else {
-    alert( 'il prezzo del tuo biglietto è: ' + prezzoBigliettoSenzaSconto.toFixed(2));
+    alert( 'il prezzo del tuo biglietto è: ' + prezzoBigliettoSenzaSconto.toFixed(2) + '€');
 }
 
 
